@@ -1,0 +1,18 @@
+class C:
+
+    NAME = "FooClub"
+    DOMAIN = "foo.club.example"
+
+    LDAP_SERVER = "directory.foo.club.example"
+    LDAP_MANAGER = "CN=root,DC=foo,DC=club,DC=example"
+    LDAP_PASSWORD = "hunter2"
+
+    TIDY_MANAGER = "person.with.contacts.permission@example"
+    TIDY_PASSWORD = "hunter2"
+
+    TIDY_CLIENT = "2168614864496E6F744E6565644546492168614864496E6F744E656564454649"
+    TIDY_SECRET = "09F911029D74E35BD84156C5635688C009F911029D74E35BD84156C5635688C0"
+    TIDY_USERNAME_FIELD = "131313131313"
+    TIDY_NAME = "<the name that you see before .tidyhq.com>"
+
+    RESERVED_USERNAMES = ["abuse", "hostmaster", "postmaster", "webmaster"]
